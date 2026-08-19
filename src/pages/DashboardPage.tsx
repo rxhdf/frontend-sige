@@ -14,6 +14,7 @@ const QUICK_ACCESS_ITEMS = [
   { icon: 'assignment_ind', title: 'Gestión de personal', description: 'Docentes y administrativos', to: '/personal' },
   { icon: 'account_tree', title: 'Estructura académica', description: 'Planes de estudio y grupos', to: '/grupo' },
   { icon: 'grading', title: 'Calificaciones', description: 'Consultar y corregir actas', to: '/calificacion' },
+  { icon: 'person_search', title: 'Análisis de alumno', description: 'Buscar alumnos', to: '/alumno/buscar'}
 ]
 
 export function DashboardPage() {

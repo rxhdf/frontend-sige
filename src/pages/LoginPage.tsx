@@ -214,19 +214,6 @@ export function LoginPage() {
               </button>
             </div>
           </form>
-
-          <div className="mt-xl pt-md border-t border-outline-variant/30 flex flex-col items-center">
-            <p className="font-label-sm text-label-sm text-on-surface-variant text-center mb-xs">
-              ¿Necesitas ayuda para ingresar?
-            </p>
-            <a
-              className="flex items-center gap-xs font-label-md text-label-md text-on-surface hover:text-primary transition-colors"
-              href="mailto:soporte.sige@cobao.edu.mx"
-            >
-              <span className="material-symbols-outlined text-sm">support_agent</span>
-              soporte.sige@cobao.edu.mx
-            </a>
-          </div>
         </div>
       </div>
     </div>

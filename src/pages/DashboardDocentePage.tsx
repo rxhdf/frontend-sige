@@ -53,7 +53,7 @@ export function DashboardDocentePage({ resumen, personal, onLogout }: DashboardD
     >
       {sinGrupos ? (
         <section className="bg-surface-container-lowest border border-surface-variant rounded-xl p-8 text-center">
-          <span className="material-symbols-outlined text-secondary text-4xl mb-2">groups_off</span>
+          <span className="material-symbols-outlined text-secondary text-4xl mb-2"></span>
           <p className="text-body-lg font-body-lg font-bold text-on-surface">Aún no tienes grupos asignados.</p>
           <p className="text-body-md font-body-md text-secondary mt-1">
             Cuando un directivo o administrador te asigne a un grupo, aparecerá aquí.
